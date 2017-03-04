@@ -5,84 +5,93 @@
     <title>Robert Kellow</title>
     <meta name="description" content="Robert Kellow">
     <meta name="author" content="Robert Kellow">    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body id="portfolio">
+<body>
 
 <?php include 'nav.html' ?>
 
-<section class="header-content">
-    <div class="bgimg">
-        <div class="page-header">
-            <h1>ROB KELLOW</h1>
-            <h2>WEB DEVELOPER</h2>
-            <a id="portfolio-button" class="portfolio-button" href="#button-anchor" rel="" title="View Portfolio">VIEW PORTFOLIO </h3><i class="fa fa-lg fa-angle-down"></i></a>
-        </div>
+<section id="header" class="header">
+    <div class="header-center">
+        <h1 class="header-title animated fadeInDownBig">ROB KELLOW</h1>
+        <h3 class="header-caption producing animated zoomIn">Producing high quality websites</h3>        
     </div>
 </section>
 
-<section class="pagewrap"> 
-    <div class="text-block">
-        <h1>PORTFOLIO</h1>
-        <hr class="title-line">
-        <a name="button-anchor" id="button-anchor"></a>
-        <p></p>   
-    
-        <div class="portfolio-wrapper">
-
-            <a href="mollys-world.php">
-            <div class="square">
-                <div class="caption">            
-                    <img class="caption-image" src="assets/images/mollysworld-logo.jpg" alt="Molly's World logo"/>
-                    <div class="caption-overlay">
-                        <h2 class="caption-content">
-                            Molly's World
-                            <hr class="caption-line">
-                            HTML5, CSS3, JQuery, PHP, MySQL, Animation
-                        </h2>
+<section id="portfolio">
+    <div class="container">                   
+        <div class="row text-center">
+            <h2>PORTFOLIO</h2>
+            <hr>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <a href="mollys-world.php">
+                    <div class="portfolio-item">
+                        <img class="portfolio-image img-responsive" alt="" src="assets/images/mollysworld-logo.jpg"/>
+                        <div class="top-caption">
+                            <h3>HTML5, CSS3, JQuery, PHP, MySQL, Animation</h3>
+                        </div>
+                        <div class="bottom-caption">
+                            <p class="text-center">Molly's World</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
-            </a>
-
-            <a href="remyroo.php">
-            <div class="square">
-                <div class="caption">       
-                    <img class="caption-image" src="assets/images/remyroo-logo.jpg" alt="remyroo logo"/>
-                    <div class="caption-overlay">
-                        <h2 class="caption-content">
-                            Remyroo
-                            <hr class="caption-line">
-                            HTML, CSS, Custom Layout
-                        </h2>
-                    </div>        
-                </div>
-            </div>
-            </a>
-
-            <a href="robert-kellow.php">
-            <div class="square">
-                <div class="caption">
-                    <img class="caption-image" src="assets/images/rk-logo-round.png" alt="Robert Kellow logo"/>
-                    <div class="caption-overlay">
-                        <h2 class="caption-content">
-                            Robert Kellow
-                            <hr class="caption-line">  
-                            HTML, CSS3, JavaScript, PHP, Responsive
-                        </h2>
+            
+            <div class="col-xs-12 col-sm-6 col-md-4 ">
+                <a href="remyroo.php">
+                    <div class="portfolio-item">
+                        <img class="portfolio-image img-responsive" alt="" src="assets/images/remyroo-logo.jpg"/>
+                        <div class="top-caption">
+                            <h3>HTML, CSS, Custom Layout</h3>
+                        </div>
+                        <div class="bottom-caption">
+                            <p class="text-center">Remyroo</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
-            </a>
+            
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <a href="robert-kellow.php">
+                    <div class="portfolio-item">
+                        <img class="portfolio-image img-responsive" alt="" src="assets/images/rk-logo-round.png"/>
+                        <div class="top-caption">
+                            <h3>HTML, CSS3, Boostrap, JavaScript, PHP, Responsive</h3>
+                        </div>
+                        <div class="bottom-caption">
+                            <p class="text-center">Rob Kellow</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <a href="#">
+                    <div class="portfolio-item">
+                        <img class="portfolio-image" alt="" src="assets/images/F1Results-logo.jpg"/>
+                        <div class="top-caption">
+                            <h3>Coming Soon</h3>
+                        </div>
+                        <div class="bottom-caption">
+                            <p class="text-center">F1 Results</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 </section>
 
 <?php include 'footer.html' ?>
 
-<script src="assets/js/navFunction.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </body>
 </html>
