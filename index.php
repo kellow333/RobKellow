@@ -72,11 +72,11 @@
             </div>
             
             <div class="col-xs-12 col-sm-6 col-md-4">
-                <a href="#">
+                <a href="F1Results.php">
                     <div class="portfolio-item">
                         <img class="portfolio-image" alt="" src="assets/images/F1Results-logo.jpg"/>
                         <div class="top-caption">
-                            <h3>Coming Soon</h3>
+                            <h3>Current Project</h3>
                         </div>
                         <div class="bottom-caption">
                             <p class="text-center">F1 Results</p>
